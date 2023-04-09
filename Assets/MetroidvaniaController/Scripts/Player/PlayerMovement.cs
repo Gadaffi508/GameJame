@@ -23,8 +23,6 @@ public class PlayerMovement : MonoBehaviour {
     private Collider2D[] detectedObjects;
 
 	public GameObject Envanter;
-    private bool panelOpen = false;
-    public float delayTime = 1f;
     //bool dashAxis = false;
 
     // Update is called once per frame
@@ -82,7 +80,6 @@ public class PlayerMovement : MonoBehaviour {
         if (detectedObjects.Length > 0)
         {
 			Envanter.SetActive(true);
-            panelOpen = true;
         }
 		else if(detectedObjects.Length <= 0)
 		{
