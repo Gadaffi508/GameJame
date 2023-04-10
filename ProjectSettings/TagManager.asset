@@ -8,6 +8,8 @@ TagManager:
   - items
   - item
   - Computer
+  - Enemy
+  - Kafes
   layers:
   - Default
   - TransparentFX
@@ -16,8 +18,8 @@ TagManager:
   - Water
   - UI
   - items
-  - 
-  - 
+  - Enemy
+  - Player
   - 
   - 
   - 
@@ -56,4 +58,10 @@ TagManager:
     locked: 0
   - name: items
     uniqueID: 471962701
+    locked: 0
+  - name: Enemy
+    uniqueID: 113575969
+    locked: 0
+  - name: Hoca
+    uniqueID: 1794009677
     locked: 0
