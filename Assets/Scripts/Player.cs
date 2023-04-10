@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public GameObject canvas;
     Rigidbody2D rb;
     public float Speed;
     public float jumpForce;
@@ -34,4 +35,6 @@ public class Player : MonoBehaviour
             jump = true;
         }
     }
+
+   
 }

@@ -10,6 +10,16 @@ public class Main : MonoBehaviour
     public int switchCount;
     public GameObject winText;
     private int onCount = 0;
+    public bool bittimi = false;
+    public MyPlayerController playerController;
+
+
+
+    private void Start()
+    {
+        playerController=GameObject.FindGameObjectWithTag("Player").gameObject.GetComponent<MyPlayerController>();
+    }
+
 
     private void Awake()
     {
@@ -20,6 +30,9 @@ public class Main : MonoBehaviour
         if (onCount == switchCount)
         {
             winText.SetActive(true);
+            bittimi = true;
+            playerController.bittimi2 = true;
+
         }
     }
     private void Update()

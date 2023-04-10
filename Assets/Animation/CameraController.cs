@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CameraController : MonoBehaviour
 {
@@ -43,6 +44,7 @@ public class CameraController : MonoBehaviour
             if (zoomSpped <= 0.1)
             {
                 zoomSpped = 0.1f;
+                SceneManager.LoadScene(1);
             }
         }
     }

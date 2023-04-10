@@ -773,7 +773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be3fb748a4f88c14ab36cc3e5b86804d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 5
+  maxHealth: 20
   anim: {fileID: 758233256}
   fire: {fileID: 5808128024564616726, guid: e698aecd1433ad542af98129023c5eec, type: 3}
   firePosition: {fileID: 1251627680}
